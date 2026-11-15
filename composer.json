@@ -1,0 +1,31 @@
+{
+    "name": "bymdigital/whatsapp-automation-india",
+    "description": "Enterprise PHP client for Meta WhatsApp Cloud API (v26.0+) with native WhatsApp Coexistence (App + API hybrid mode) and Tally ERP webhook integration.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "BYM Digital",
+            "homepage": "https://bymdigital.com/whatsapp-automation-india"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "BYMDigital\\WhatsApp\\": "src/"
+        }
+    },
+    "keywords": [
+        "whatsapp",
+        "whatsapp-automation",
+        "whatsapp-coexistence",
+        "whatsapp-cloud-api",
+        "meta-graph-api",
+        "tally-prime",
+        "india"
+    ]
+}
